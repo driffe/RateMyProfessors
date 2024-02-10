@@ -10,8 +10,8 @@
         "128":"icons/128.png"       
     },
     "action": {
-        "default_icon": "icons/32.png",
-        "default_title": "Rate SJSU",
+        "default_icon": "icons/48.png",
+        "default_title": "Reaction test",
         "default_popup": "html/popup.html"
     }
   }
