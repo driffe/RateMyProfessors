@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         responseTime = endTime - startTime; // 측정시간
         records.push(responseTime);
         let Avg = records.reduce((acc, cur) => {return acc+cur}, 0) / records.length; // 평균 반응 속도
-        result.textContent = '현재 : ' + responseTime + " ms" + ' / ' + '평균 속도 : ' + Avg + " ms";
+        result.textContent = '현재 : ' + Math.floor(responseTime) + " ms" + ' / ' + '평균 속도 : ' + Math.floor(Avg) + " ms";
         screen.classList.replace("now", "waiting");
         screen.textContent = "클릭해서 시작하세요";
       }

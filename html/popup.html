@@ -4,25 +4,42 @@
     <script src="/js/popup.js" type="module"></script>
   </head>
   <body>
-    <div id="screen" class="waiting">클릭해서 시작하세요</div>
+    <div id="screen" class="waiting">클릭해서 시작하시오</div>
     <div id="result"></div>
   </body>
   <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
     #screen {
       width: 300px;
       height: 200px;
+      display: flex;
       text-align: center;
+      align-items: center;
+      justify-content: center;
       user-select: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     #screen.waiting {
-      background-color: aqua;
+      background-color:#D7BBF5;
     }
     #screen.ready {
       background-color: red;
       color: white;
     }
     #screen.now {
-      background-color: greenyellow;
+      background-color: #16FF00;
+    }
+    #result {
+      display: flex;
+      margin: 1rem;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
     }
   </style>
 </html>
