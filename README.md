@@ -1,1 +1,1 @@
-# RateMyProfessors
+# Reaction Time test
