@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#screen {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+}
+
+#screen.waiting {
+    background-color:#D7BBF5;
+}
+
+#screen.ready {
+    background-color: red;
+    color: white;
+}
+
+#screen.now {
+    background-color: #16FF00;
+}
+
+#result {
+    display: flex;
+    margin: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#percentage {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
